@@ -1,65 +1,64 @@
-.container{
-    display: flex;
-    flex-direction: row;
-    padding: 25px;
-    
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
 }
 
-.logo{  
- flex-grow:1;
- flex-shrink: 5;
- 
-}
-.content{
-    display: flex;
-    flex-direction: column;
-    padding: 25px;
-    background-image: url("./images/background.svg");
-    background-size:100vw;
-    background-repeat: no-repeat;
+.logo {
+  flex-grow: 1;
+  flex-shrink: 5;
 }
 
-h1{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 52px;
-    align-items: center;
-    color: #172B4D;
-    margin: 12px 0px;
-    padding-top: 50px;
-}
-p{
-font-family:'Poppins';
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 24px;
-color: #344563;
-margin: 12px 0px;
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-image: url("./images/background.svg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
 }
 
-h2{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color: #7F8CFF;
-margin: 0px 8px;
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  color: #172b4d;
+  margin: 12px 0;
+  padding-top: 50px;
 }
 
-.media{
-display: flex;
-justify-content: start;
-flex-direction: row;
-gap: 1em;
-padding-left: 10px;
-align-items: baseline;
+p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
+  margin: 12px 0;
 }
 
- ul.media{
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin: 0 8px;
+}
+
+.media {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  gap: 1em;
+  padding-left: 10px;
+  align-items: baseline;
+}
+
+ul.media {
   list-style: none;
-
 }
