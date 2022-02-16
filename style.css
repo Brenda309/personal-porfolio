@@ -15,7 +15,7 @@
     flex-direction: column;
     padding: 25px;
     background-image: url("./images/background.svg");
-    background-size: 100vw;
+    background-size 100px;
     background-repeat: no-repeat;
 }
 
@@ -34,7 +34,7 @@ p{
 font-family:'Poppins';
 font-style: normal;
 font-weight: normal;
-font-size: 16px;
+font-size: 20px;
 line-height: 24px;
 color: #344563;
 margin: 12px 0px;
@@ -44,7 +44,7 @@ h2{
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 20px;
 line-height: 24px;
 color: #7F8CFF;
 margin: 0px 8px;
@@ -55,8 +55,11 @@ display: flex;
 justify-content: start;
 flex-direction: row;
 gap: 1em;
+padding-left: 10px;
+align-items: baseline;
 }
 
  ul.media{
   list-style: none;
+
 }
