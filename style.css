@@ -15,7 +15,7 @@
     flex-direction: column;
     padding: 25px;
     background-image: url("./images/background.svg");
-    background-size 100px;
+    background-size:100vw;
     background-repeat: no-repeat;
 }
 
