@@ -34,23 +34,26 @@ h1 {
 
 p {
   font-family: 'poppins-bold', sans-serif !important;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-color: #344563;
-flex: none;
-flex-grow: 0;
-margin: 12px 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  flex-grow: 0;
+  margin: 12px 0;
 }
 
 h2 {
   font-family: 'poppins-bold', sans-serif !important;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #8f9afa;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   margin: 0 8px;
 }
 
