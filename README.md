@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Mobile version Portfolio
 
 > Portfolio: setup and mobile version skeleton.
 
@@ -34,9 +34,8 @@ t
 
 👤 **Author1**
 
-- GitHub: [Brenda309](https://github.com/githubhandle)
-- Twitter: [@Brenda](https://twitter.com/twitterhandle)
-- LinkedIn: [Wihogora Brenda](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Brenda309](https://github.com/Brenda309)
+- LinkedIn: [Wihogora Brenda](https://www.linkedin.com/in/brenda-wihogora/)
 
 
 ## 🤝 Contributing
