@@ -34,12 +34,14 @@ h1 {
 
 p {
   font-family: 'poppins-bold', sans-serif !important;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 24px;
-  color: #344563;
-  margin: 12px 0;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+flex: none;
+flex-grow: 0;
+margin: 12px 0px;
 }
 
 h2 {
@@ -57,7 +59,7 @@ h2 {
   justify-content: start;
   flex-direction: row;
   gap: 1em;
-  padding-left: 10px;
+  padding-left: 5px;
   align-items: baseline;
 }
 
