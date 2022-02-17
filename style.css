@@ -57,6 +57,11 @@ h2 {
   margin: 0 8px;
 }
 
+.content a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .media {
   display: flex;
   justify-content: start;
