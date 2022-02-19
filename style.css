@@ -48,18 +48,19 @@ p {
   font-family: 'poppins-bold', sans-serif !important;
   font-style: normal;
   font-size: 16px;
-  color:#6070FF;
-
+  color: #6070ff;
 }
 
 .content a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
 .connect a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
 .media {
   display: flex;
   justify-content: start;
@@ -74,7 +75,7 @@ ul.media {
 }
 
 .project-container {
- display: grid;
+  display: grid;
   row-gap: 89px;
 }
 
@@ -110,7 +111,7 @@ ul.media {
 }
 
 .p-title {
-  color: #172B4D;;
+  color: #172b4d;
   font-family: 'poppins-bold', sans-serif !important;
   font-style: normal;
   font-weight: bold;
@@ -165,32 +166,30 @@ ul.media {
 .clickme {
   color: #396df2;
   border-radius: 8px;
-  border-color:#7F8CFF;
+  border-color: #7f8cff;
   padding: 10px 20px;
   background-color: #fff;
   font-size: 20px;
 }
+
 .clickme:hover,
-.clickme:active{
+.clickme:active {
   background-color: #396df2;
   color: #fff;
 }
 
 .about-me {
   padding-left: 20px;
-
 }
 
 .self {
   font-size: 50px;
-  color: #172B4D;
+  color: #172b4d;
   position: static;
-width: 327px;
-height: 101px;
-left: 0px;
-top: 0px;
-
-
+  width: 327px;
+  height: 101px;
+  left: 0;
+  top: 0;
 }
 
 .intro-about {
@@ -232,20 +231,20 @@ top: 0px;
   display: flex;
   margin-top: 20px;
 }
-.lang h4{
-  position: absolute;
-height: 24px;
-left: 12px;
-right: 78px;
-top: calc(50% - 24px/2);
-font-family: 'poppins-bold', sans-serif !important ;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color: #000000;
 
+.lang h4 {
+  position: absolute;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  font-family: 'poppins-bold', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
 }
+
 .lang li {
   margin-left: 20px;
   margin-top: 18px;
@@ -258,32 +257,36 @@ color: #000000;
 
 .fr-skills {
   list-style: none;
-  padding: 0px;
+  padding: 0;
   width: 90%;
 }
-.fr-skills .framework{
-display: flex;
-justify-content: space-between;
-font-family:'poppins-bold', sans-serif !important;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color: #000000;
-list-style: none;
-padding: 3px;
+
+.fr-skills .framework {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'poppins-bold', sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  list-style: none;
+}
+
+.framework li {
+  list-style: none;
 }
 
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
- }
+  margin: 20px;
+}
 
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
-  
+  color: rgb(32, 32, 32);
 }
-
