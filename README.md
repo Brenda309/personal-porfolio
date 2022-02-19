@@ -12,9 +12,11 @@
 
 
 ## Getting Started
+1. Goto"https://github.com/"
+2.Click on repositories
+3. Choose Personal-pertifolio
+4. Then clone the repository to your local machine.
 
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 Basic knowledge on HTML5
