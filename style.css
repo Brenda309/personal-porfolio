@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300;400;500;600;700&family=Poppins&family=Roboto:wght@700&display=swap');
 
 .container {
   display: flex;
@@ -21,8 +20,7 @@
 }
 
 h1 {
-  font-family: 'poppins-bold', sans-serif !important;
-  font-style: normal;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
@@ -33,7 +31,7 @@ h1 {
 }
 
 p {
-  font-family: 'poppins-bold', sans-serif !important;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -44,14 +42,15 @@ p {
   margin: 12px 0;
 }
 
-.connect h2 {
-  font-family: 'poppins-bold', sans-serif !important;
+.connect p {
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 16px;
   color: #6070ff;
+  font-weight: 500;
 }
 
-.content a {
+.content p {
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -91,9 +90,9 @@ ul.media {
 }
 
 .about {
-  font-family: 'poppins-bold', sans-serif !important;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 24px;
   color: #344563;
@@ -112,9 +111,9 @@ ul.media {
 
 .p-title {
   color: #172b4d;
-  font-family: 'poppins-bold', sans-serif !important;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   margin: 12px 0;
@@ -129,22 +128,19 @@ ul.media {
 }
 
 .work1 {
-  font-family: 'poppins-bold', sans-serif !important;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #3f4550;
+  color: #344563;
 }
 
 .subwork li {
   color: #7a869a;
   font-size: 13px;
-  font-family: 'poppins-bold', sans-serif !important;
-}
-
-.project-card p {
-  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
 .languages {
@@ -160,7 +156,9 @@ ul.media {
   background-color: #ebebff;
   border-radius: 10px;
   padding: 10px;
-  font-family: 'poppins-bold', sans-serif !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
 }
 
 .clickme {
@@ -170,10 +168,11 @@ ul.media {
   padding: 10px 20px;
   background-color: #fff;
   font-size: 20px;
+  font-weight: 500;
 }
 
 .clickme:hover,
-.clickme:active {
+.clickme:enabled .climeme:active {
   background-color: #396df2;
   color: #fff;
 }
@@ -183,7 +182,8 @@ ul.media {
 }
 
 .self {
-  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
   color: #172b4d;
   position: static;
   width: 327px;
@@ -193,9 +193,9 @@ ul.media {
 }
 
 .intro-about {
-  font-family: 'poppins-bold', sans-serif !important;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
@@ -237,7 +237,7 @@ ul.media {
   height: 24px;
   left: 12px;
   right: 78px;
-  font-family: 'poppins-bold', sans-serif !important;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -250,7 +250,7 @@ ul.media {
   margin-top: 18px;
   list-style: none;
   color: #253858;
-  font-family: 'poppins-bold', sans-serif !important;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   font-weight: 500;
 }
@@ -264,7 +264,7 @@ ul.media {
 .fr-skills .framework {
   display: flex;
   justify-content: space-between;
-  font-family: 'poppins-bold', sans-serif !important;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
