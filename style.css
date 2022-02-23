@@ -437,3 +437,20 @@ textarea::placeholder {
   background: none;
   padding: 5px 10px;
 }
+
+.btn:hover,
+.button-submit:active {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.btn:hover,
+.btn:visited {
+  background-color: #2235dd;
+  color: #fff;
+}
+
+.line {
+  text-align: center;
+  margin: 10px auto;
+}
