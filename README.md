@@ -14,10 +14,11 @@
 2. Click on repositories
 3. Choose repository "Personal-pertifolio" or click to "https://github.com/Brenda309/Personal-portfolio"
 4. Then clone the repository to your local machine by using the following steps:
-    . From repository click on code button and copy clone cammand(Kindly make sure you choose SHH format)
-    . From your terminal type "git clone" command line
-    . On same line paste the the copied clone command from GitHub
-    . Then click Enter. Now you are the repository/directory on your local machine.
+     1. From repository click on code button and copy clone cammand(Kindly make sure you choose SHH format)
+     2. From your terminal type "git clone" command line
+     3. On same line paste the the copied clone command from GitHub
+     4.  Then click Enter. Now you are the repository/directory on your local machine.
+    
 
 
 ### Prerequisites
