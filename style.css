@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -21,6 +22,7 @@
   background-image: url("./images/background.svg");
   background-size: 100vw;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 h1 {
@@ -176,7 +178,7 @@ ul.media {
 }
 
 .clickme:hover,
-.clickme:enabled .climeme:active {
+.clickme:enabled .clickme:active {
   background-color: #396df2;
   color: #fff;
 }
@@ -322,6 +324,7 @@ ul.media {
   color: #fff;
   width: 90%;
 }
+
 .contact-txt {
   color: red;
   font-family: "Poppins", sans-serif;
@@ -351,6 +354,9 @@ ul.media {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* background: white; */
+  /* padding-left: 24px;
+  padding-right: 24px; */
   padding-top: 50px;
   width: 90%;
   margin: 0 20px;
@@ -369,11 +375,12 @@ ul.media {
 }
 
 .name-email {
+  background: red;
   width: 90%;
   height: 18px;
 }
 
-form-field input {
+.form-field input {
   border-style: none;
   font-family: "Poppins", sans-serif;
   font-style: normal;
