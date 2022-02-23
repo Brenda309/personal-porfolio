@@ -414,3 +414,26 @@ textarea::placeholder {
   line-height: 24px;
   font-family: "Poppins", sans-serif;
 }
+
+.form-field .btn {
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.form-field button {
+  border-style: none;
+  color: #6070ff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  background: none;
+  padding: 5px 10px;
+}
