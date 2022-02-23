@@ -313,4 +313,45 @@ ul.media {
   padding-top: 90px;
 }
 
-.contact-description h2 { font-family: "Poppins", sans-serif; font-style: normal; font-weight: 400; font-size: 40px; line-height: 52px; color: #fff; width: 90%; } .contact-txt { color: red; font-family: "Poppins", sans-serif; font-style: normal; font-weight: normal; font-size: 20px; line-height: 28px; }
+.contact-description h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  width: 90%;
+}
+.contact-txt {
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.contact-description p {
+  align-items: baseline;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  color: #ebebff;
+  padding-left: 30px;
+  padding-right: 24px;
+}
+
+::placeholder {
+  color: black;
+}
+
+.form-field {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 90%;
+  margin: 0 20px;
+}
