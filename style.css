@@ -355,3 +355,21 @@ ul.media {
   width: 90%;
   margin: 0 20px;
 }
+
+.form-field .name {
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  height: 48px;
+}
+
+.name-emailv {
+  padding-top: 0.5rem;
+}
+
+.name-email {
+  background: red;
+  width: 90%;
+  height: 18px;
+}
