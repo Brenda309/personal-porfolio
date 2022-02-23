@@ -403,3 +403,14 @@ form-field input {
   padding: 15px 0 0 23px;
   height: 170px;
 }
+textarea {
+  border: none;
+  outline: none;
+}
+
+textarea::placeholder {
+  color: #b3bac5;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
+}
