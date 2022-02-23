@@ -312,3 +312,5 @@ ul.media {
   text-align: center;
   padding-top: 90px;
 }
+
+.contact-description h2 { font-family: "Poppins", sans-serif; font-style: normal; font-weight: 400; font-size: 40px; line-height: 52px; color: #fff; width: 90%; } .contact-txt { color: red; font-family: "Poppins", sans-serif; font-style: normal; font-weight: normal; font-size: 20px; line-height: 28px; }
