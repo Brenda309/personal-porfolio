@@ -354,7 +354,9 @@ ul.media {
   display: flex;
   justify-content: center;
   flex-direction: column;
+
   /* background: white; */
+
   /* padding-left: 24px;
   padding-right: 24px; */
   padding-top: 50px;
@@ -405,10 +407,12 @@ ul.media {
   color: #b3bac5;
   border: none;
   border-radius: 8px;
+
   /* width: 100%; */
   padding: 15px 0 0 23px;
   height: 170px;
 }
+
 textarea {
   border: none;
   outline: none;
