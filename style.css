@@ -318,7 +318,7 @@ ul.media {
 .contact-description h2 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #fff;
@@ -429,6 +429,9 @@ textarea::placeholder {
   background: #fff;
   margin-top: 20px;
   margin-bottom: 40px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  padding-top: 0.5rem;
 }
 
 .form-field button {
