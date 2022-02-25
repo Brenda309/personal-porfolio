@@ -1,8 +1,7 @@
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 2px;
+  padding: 2px;
+  box-sizing:content-box;
 }
 
 .container {
@@ -78,6 +77,8 @@ ul.media {
 .project-container {
   display: grid;
   row-gap: 89px;
+align-content: center;
+padding: 50px;
 }
 
 .project-card {
@@ -167,10 +168,11 @@ ul.media {
   color: #396df2;
   border-radius: 8px;
   border-color: #7f8cff;
-  padding: 10px 20px;
+  padding: 10px 18px;
   background-color: #fff;
   font-size: 20px;
   font-weight: 500;
+  margin-top:20px;
 }
 
 .clickme:hover,
@@ -523,6 +525,7 @@ textarea::placeholder {
   }
 
   .project-container {
+    margin-top: 50px;
     height: 496px;
     width: 1156px;
   }
@@ -561,9 +564,9 @@ textarea::placeholder {
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-    width: 496px;
-    height: 50px;
-    left: 24px;
+    width: 66%;
+    height: 15%;
+    left: 24%;
     top: 146px;
   }
 
@@ -589,29 +592,27 @@ textarea::placeholder {
     display: flex;
     grid-template-areas: "auto auto";
     flex-direction: row;
-    gap: 3em;
     margin-left: 80px;
-    margin-right: 90px;
-  }
-
-  .intro-about {
-    width: 50%;
   }
 
   .about-me {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    width: 40%;
   }
-
+  .intro-about {
+    width: 80%;
+    height: 30%;
+  }
   .about-languages {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    flex-grow: 1;
+    width: 60%;
+  
   }
 
   .contact-form {
+   margin-top:50px;
     background-image: url("./images/contact-from.svg");
     background-size: 100vw;
     background-repeat: no-repeat;
