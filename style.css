@@ -1,7 +1,7 @@
 * {
   margin: 2px;
   padding: 2px;
-  box-sizing:content-box;
+  box-sizing: content-box;
 }
 
 .container {
@@ -77,8 +77,8 @@ ul.media {
 .project-container {
   display: grid;
   row-gap: 89px;
-align-content: center;
-padding: 50px;
+  align-content: center;
+  padding: 50px;
 }
 
 .project-card {
@@ -172,7 +172,7 @@ padding: 50px;
   background-color: #fff;
   font-size: 20px;
   font-weight: 500;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 .clickme:hover,
@@ -600,19 +600,20 @@ textarea::placeholder {
     flex-direction: column;
     width: 40%;
   }
+
   .intro-about {
     width: 80%;
     height: 30%;
   }
+
   .about-languages {
     display: flex;
     flex-direction: column;
     width: 60%;
-  
   }
 
   .contact-form {
-   margin-top:50px;
+    margin-top: 50px;
     background-image: url("./images/contact-from.svg");
     background-size: 100vw;
     background-repeat: no-repeat;
