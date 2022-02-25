@@ -2,7 +2,7 @@
 
 # Personal Portfolio
 
-> Portfolio: I am building web-page mobile version portfolio.
+> Portfolio: In this project I created a pertfolio which is adaptable on Desktop as well as on mobile/smartphone.
 
 
 ## Built With
