@@ -10,7 +10,7 @@
 - html & CSS
 
 ## Getting Started
-1. Goto"https://github.com/"
+1. Please go to"https://github.com/"
 2. Click on repositories
 3. Choose repository "Personal-pertifolio" or click to "https://github.com/Brenda309/Personal-portfolio"
 4. Then clone the repository to your local machine by using the following steps:
