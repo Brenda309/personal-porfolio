@@ -22,10 +22,10 @@
 }
 
 .logo:hover {
-    background-color: #2b3fee;
-    width: 30px;
-    height: 10px;
-    transform: rotate(10deg);
+  background-color: #2b3fee;
+  width: 30px;
+  height: 10px;
+  transform: rotate(10deg);
 }
 
 .content {
@@ -47,6 +47,22 @@ h1 {
   color: #172b4d;
   margin: 12px 0;
   padding-top: 50px;
+}
+h1 {
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 p {
@@ -494,7 +510,7 @@ textarea::placeholder {
 
   .nav-menu li {
     padding: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -505,18 +521,18 @@ textarea::placeholder {
   .logo {
     padding: 20px;
   }
- .logo {
-  flex-grow: 1;
-  flex-shrink: 5;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
-}
+  .logo {
+    flex-grow: 1;
+    flex-shrink: 5;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
 
-.logo:hover {
+  .logo:hover {
     background-color: #2b3fee;
     width: 30px;
     height: 10px;
     transform: rotate(10deg);
-}
+  }
   .content {
     background-image: url("./images/desktop.svg");
     background-size: 100vw;
@@ -526,7 +542,7 @@ textarea::placeholder {
   }
 
   h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -536,9 +552,25 @@ textarea::placeholder {
     height: 122px;
     flex: 1;
   }
+  h1 {
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
   p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -548,7 +580,7 @@ textarea::placeholder {
     flex: 1;
   }
 
-  .project-container{
+  .project-container {
     margin-top: 50px;
     height: 496px;
     width: 1156px;
@@ -573,7 +605,7 @@ textarea::placeholder {
   }
 
   .p-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -595,7 +627,7 @@ textarea::placeholder {
   }
 
   .work1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -659,7 +691,7 @@ textarea::placeholder {
     height: 102px;
     left: 116px;
     top: 68px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
