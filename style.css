@@ -15,6 +15,19 @@
   flex-shrink: 5;
 }
 
+.logo {
+  flex-grow: 1;
+  flex-shrink: 5;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.logo:hover {
+    background-color: #2b3fee;
+    width: 30px;
+    height: 10px;
+    transform: rotate(10deg);
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -492,7 +505,18 @@ textarea::placeholder {
   .logo {
     padding: 20px;
   }
+ .logo {
+  flex-grow: 1;
+  flex-shrink: 5;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
 
+.logo:hover {
+    background-color: #2b3fee;
+    width: 30px;
+    height: 10px;
+    transform: rotate(10deg);
+}
   .content {
     background-image: url("./images/desktop.svg");
     background-size: 100vw;
@@ -524,7 +548,7 @@ textarea::placeholder {
     flex: 1;
   }
 
-  .project-container {
+  .project-container{
     margin-top: 50px;
     height: 496px;
     width: 1156px;
