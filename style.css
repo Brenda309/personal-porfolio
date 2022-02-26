@@ -8,11 +8,20 @@
   display: flex;
   flex-direction: row;
   padding: 25px;
+  overflow: hidden;
 }
 
 .logo {
   flex-grow: 1;
   flex-shrink: 5;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.logo:hover {
+  background-color: #2b3fee;
+  width: 30px;
+  height: 10px;
+  transform: rotate(10deg);
 }
 
 .content {
@@ -34,6 +43,20 @@ h1 {
   color: #172b4d;
   margin: 12px 0;
   padding-top: 50px;
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 p {
@@ -481,7 +504,7 @@ textarea::placeholder {
 
   .nav-menu li {
     padding: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -491,6 +514,16 @@ textarea::placeholder {
 
   .logo {
     padding: 20px;
+    flex-grow: 1;
+    flex-shrink: 5;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
+
+  .logo:hover {
+    background-color: #2b3fee;
+    width: 30px;
+    height: 10px;
+    transform: rotate(10deg);
   }
 
   .content {
@@ -502,7 +535,7 @@ textarea::placeholder {
   }
 
   h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -511,10 +544,24 @@ textarea::placeholder {
     width: 920px;
     height: 122px;
     flex: 1;
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -549,7 +596,7 @@ textarea::placeholder {
   }
 
   .p-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -571,7 +618,7 @@ textarea::placeholder {
   }
 
   .work1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -635,7 +682,7 @@ textarea::placeholder {
     height: 102px;
     left: 116px;
     top: 68px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
