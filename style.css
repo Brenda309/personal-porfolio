@@ -8,12 +8,7 @@
   display: flex;
   flex-direction: row;
   padding: 25px;
-  overflow:hidden;
-}
-
-.logo {
-  flex-grow: 1;
-  flex-shrink: 5;
+  overflow: hidden;
 }
 
 .logo {
@@ -48,8 +43,6 @@ h1 {
   color: #172b4d;
   margin: 12px 0;
   padding-top: 50px;
-}
-h1 {
   animation-duration: 5s;
   animation-name: slidein;
 }
@@ -521,8 +514,6 @@ textarea::placeholder {
 
   .logo {
     padding: 20px;
-  }
-  .logo {
     flex-grow: 1;
     flex-shrink: 5;
     transition: width 2s, height 2s, background-color 2s, transform 2s;
@@ -534,6 +525,7 @@ textarea::placeholder {
     height: 10px;
     transform: rotate(10deg);
   }
+
   .content {
     background-image: url("./images/desktop.svg");
     background-size: 100vw;
@@ -552,8 +544,6 @@ textarea::placeholder {
     width: 920px;
     height: 122px;
     flex: 1;
-  }
-  h1 {
     animation-duration: 5s;
     animation-name: slidein;
   }
