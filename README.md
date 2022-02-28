@@ -3,14 +3,15 @@
 # Personal Portfolio
 
 > Portfolio: In this project I created a pertfolio which is adaptable on Desktop as well as on mobile/smartphone.
+> Please use link to view my portfolio page in your browser "https://brenda309.github.io/Personal-portfolio/"
 
 
 ## Built With
 
-- html & CSS
+- HTML5&CSS
 
 ## Getting Started
-1. Please go to"https://github.com/"
+1. Please go to"https://github.com/Brenda309"
 2. Click on repositories
 3. Choose repository "Personal-pertifolio" or click to "https://github.com/Brenda309/Personal-portfolio"
 4. Then clone the repository to your local machine by using the following steps:
@@ -19,11 +20,6 @@
      3. On same line paste the the copied clone command from GitHub
      4.  Then click Enter. Now you are the repository/directory on your local machine.
     
-
-
-### Prerequisites
-Basic knowledge on HTML5
-Fundemental knowledge on Flexbox
 
 ### Setup
 GitHub account 
