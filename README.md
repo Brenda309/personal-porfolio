@@ -3,8 +3,7 @@
 # Personal Portfolio
 
 > Portfolio: In this project I created a pertfolio which is adaptable on Desktop as well as on mobile/smartphone.
-
-
+> Please view my portfolio page in your browser by following this link "https://brenda309.github.io/Personal-portfolio/"
 ## Built With
 
 - HTML5&CSS
