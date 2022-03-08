@@ -6,7 +6,6 @@ const navMenu = document.querySelector('.nav-menu');
 menu.addEventListener('click', () => {
     menu.style.display = 'none';
     document.querySelector('.logo').style.display = 'none';
-
     const navMenu = document.querySelector('.nav-menu');
     const listItems = document.getElementById('list-items');
     navMenu.style.display = 'flex';
