@@ -1,6 +1,7 @@
 const navbar = document.querySelector('.navbar');
 const menu = document.querySelector('.menu');
 const cancel = document.querySelector('.cancel');
+const navMenu = document.querySelector('.nav-menu');
 
 menu.addEventListener('click', () => {
     menu.style.display = 'none';
@@ -12,14 +13,14 @@ menu.addEventListener('click', () => {
     navMenu.style.listStyle = 'none';
     navMenu.style.textDecoration = 'none';
 
+    navMenu.classList.add('menu-item-style');
+
 
 })
 
-
-menu.addEventListener('click', );
-cancel.addEventListener('click', close);
-
-
-function show() {
-  navbar.style.display = 'flex';
-}
+navMenu.addEventListener('click', () => {
+  
+  document.querySelector('.nav-menu').style.display = 'none'
+  document.querySelector('.logo').style.display = 'flex';
+  menu.style.display = 'flex'; 
+});

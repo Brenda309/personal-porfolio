@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <header class="container">
+    <header class="container" id="">
         <a href="#" class="logo">
             <img src="./images/logo.svg" alt="Logo" />
         </a>
@@ -32,11 +32,12 @@
             </a>
             <nav class="navbar"></nav>
             <ul class="nav-menu">
-                <li><a href="#" class="nav-list">Portfolio</a></li>
-                <li><a href="#" class="nav-list">About</a></li>
-                <li><a href="#" class="nav-list">Contact</a></li>
+                <li class="cancel"><img src="./images/Icon-Cancel.png" alt=""></li>
+                <li><a href="#portfolio" class="nav-list">Portfolio</a></li>
+                <li><a href="#about" class="nav-list">About</a></li>
+                <li><a href="#contact" class="nav-list">Contact</a></li>
             </ul>
-            <div class="cancel"><a href=""><img src="./images/cancelicon.png" alt=""></a></div>
+            <!-- <div class="cancel"><a href=""><img src="./images/cancelicon.png" alt=""></a></div> -->
         </nav>
     </header>
     <section class="content">
@@ -72,7 +73,7 @@
 
 
     <!--section2-->
-    <section class="projects-container">
+    <section class="projects-container" id="portfolio">
         <div class="project-card">
             <div class="image">
                 <img src="./images/tonic.svg" alt="Image1" />
@@ -215,7 +216,7 @@
             <div><button class="clickme" type="button">See Project</button></div>
         </div>
     </section>
-    <section class="my-intro">
+    <section class="my-intro" id="about">
         <div class="about-me">
             <h3 class="self">
                 About <br />
@@ -296,7 +297,7 @@
 
 
     <!-- contact form section -->
-    <section class="contact-form">
+    <section class="contact-form" id="contact">
         <div class="contact-description">
             <h2 class>Contact me</h2>
             <p>
