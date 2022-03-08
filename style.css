@@ -3,7 +3,7 @@
   box-sizing: content-box;
 }
 
-a {
+ a {
   list-style: none;
   text-decoration: none;
   color: white;
@@ -35,28 +35,29 @@ a {
   flex-shrink: 5;
 }
 
-.navbar  .nav-menu{
+.navbar .nav-menu {
   display: flex;
-    background: url("./images/bluebg.png");
-    height: 100vh;
-    width: 350px;
-    font-family: "Poppins",sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 44px;
-    color: #FFFFFF;
-  }
-  
-  .cancel {
-    align-self: flex-end;
-    padding-top: 30px;
-    padding: 10px;
-  }
-  .list-items {
-    align-self: flex-start;
- 
-  }
+  background: url("./images/bluebg.png");
+  height: 100vh;
+  width: 350px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.cancel {
+  align-self: flex-end;
+  padding-top: 30px;
+  padding: 10px;
+}
+
+.list-items {
+  align-self: flex-start;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -148,7 +149,7 @@ ul.media {
   margin: 10px 0;
 }
 
-.about {
+.about{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -458,7 +459,7 @@ ul.media {
   height: 170px;
 }
 
-textarea {
+textarea{
   border: none;
   outline: none;
 }
@@ -508,7 +509,7 @@ textarea::placeholder {
   color: #fff;
 }
 
-.line {
+.line{
   text-align: center;
   margin: 10px auto;
 }
@@ -519,19 +520,22 @@ textarea::placeholder {
     width: 100%;
     height: auto;
   }
+
   .cantainer {
     display: flex;
     flex-direction: row;
     margin: 40px;
   }
-  
-  .menu {
-    display: none;
+
+  .menu{
+    display: none !important;
   }
 
-  .nav-menu {
+  .menu-items{
     display: flex;
     list-style: none;
+    color:black;
+  
   }
 
   .nav-menu li {
@@ -543,7 +547,6 @@ textarea::placeholder {
     line-height: 20px;
     color: #344563;
   }
-
   .logo {
     padding: 20px;
     flex-grow: 1;
@@ -578,7 +581,7 @@ textarea::placeholder {
       width: 300%;
     }
 
-    to {
+    to{
       margin-left: 0%;
       width: 100%;
     }
