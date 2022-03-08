@@ -1,6 +1,5 @@
 * {
   margin: 2px;
-  padding: 2px;
   box-sizing: content-box;
 }
 
@@ -9,12 +8,12 @@ a {
   text-decoration: none;
   color: white;
   font-family: "Poppins";
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 44px;
-display: flex;
-align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
 }
 
 .menu-item-style {
@@ -51,6 +50,8 @@ align-items: center;
   
   .cancel {
     align-self: flex-end;
+    padding-top: 30px;
+    padding: 10px;
   }
   .list-items {
     align-self: flex-start;
