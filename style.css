@@ -14,16 +14,28 @@
 .logo {
   flex-grow: 1;
   flex-shrink: 5;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
-.logo:hover {
-  background-color: #2b3fee;
-  width: 30px;
-  height: 10px;
-  transform: rotate(10deg);
-}
-
+.navbar  .nav-menu{
+  display: flex;
+    background: url("./images/bluebg.png");
+    height: 100vh;
+    width: 350px;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+  }
+  
+  .cancel {
+    align-self: flex-end;
+  }
+  .list-items {
+    align-self: flex-start;
+ 
+  }
 .content {
   display: flex;
   flex-direction: column;
@@ -486,13 +498,12 @@ textarea::placeholder {
     width: 100%;
     height: auto;
   }
-
   .cantainer {
     display: flex;
     flex-direction: row;
     margin: 40px;
   }
-
+  
   .menu {
     display: none;
   }
@@ -516,14 +527,6 @@ textarea::placeholder {
     padding: 20px;
     flex-grow: 1;
     flex-shrink: 5;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-  }
-
-  .logo:hover {
-    background-color: #2b3fee;
-    width: 30px;
-    height: 10px;
-    transform: rotate(10deg);
   }
 
   .content {
