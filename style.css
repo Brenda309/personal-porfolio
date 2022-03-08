@@ -516,6 +516,16 @@ textarea::placeholder {
 
 /* Desktop-version */
 @media screen and (min-width: 992px) {
+
+  a {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
   body {
     width: 100%;
     height: auto;
