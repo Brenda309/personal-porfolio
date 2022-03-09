@@ -6,7 +6,8 @@
 > Please view my portfolio page in your browser by following this link "https://brenda309.github.io/Personal-portfolio/"
 ## Built With
 
-- HTML5&CSS
+- HTML5&CSS.
+- JavaScript.
 
 ## Getting Started
 1. Please go to"https://github.com/Brenda309"
