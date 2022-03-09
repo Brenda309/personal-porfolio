@@ -26,7 +26,7 @@
 
 .menu-item-style {
   display: flex;
-  background: #6070FF;
+  background: #6070ff;
   mix-blend-mode: multiply;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -34,10 +34,10 @@
   font-size: 32px;
   color: #fff;
   position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   height: 120vh;
 }
 
@@ -48,6 +48,7 @@
 .list-items {
   align-self: flex-start;
 }
+
 a {
   list-style: none;
   text-decoration: none;
