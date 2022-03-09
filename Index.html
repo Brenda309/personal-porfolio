@@ -2,23 +2,13 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155595413-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { window.dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-155595413-1');
-    </script>
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@4400&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 
@@ -27,16 +17,18 @@
         <a href="#" class="logo">
             <img src="./images/logo.svg" alt="Logo" />
         </a>
-        <nav class="navbar">
+       
             <a href="#" class="menu">
-                <img src="./images/Union.svg" alt="Menu" />
+                <img src="./images/Union.svg"  alt="Menu" />
             </a>
-            <ul class=nav-menu>
-                <li><a href="#" class="nav-portfolio">Portfolio</a></li>
-                <li><a href="#" class="nav-about">About</a></li>
-                <li><a href="#" class="nav-connect">Contact</a></li>
-            </ul>
-        </nav>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                <li class="cancel"><img src="./images/Icon-Cancel.png" alt=""></li>
+                <li><a href="#portfolio" class="nav-list">Portfolio</a></li>
+                <li><a href="#about" class="nav-list">About</a></li>
+                <li><a href="#contact" class="nav-list">Contact</a></li>
+                </ul>
+            </nav>
     </header>
     <section class="content">
         <h1>
@@ -71,7 +63,7 @@
 
 
     <!--section2-->
-    <section class="projects-container">
+    <section class="projects-container" id="portfolio">
         <div class="project-card">
             <div class="image">
                 <img src="./images/tonic.svg" alt="Image1" />
@@ -214,7 +206,7 @@
             <div><button class="clickme" type="button">See Project</button></div>
         </div>
     </section>
-    <section class="my-intro">
+    <section class="my-intro" id="about">
         <div class="about-me">
             <h3 class="self">
                 About <br />
@@ -295,7 +287,7 @@
 
 
     <!-- contact form section -->
-    <section class="contact-form">
+    <section class="contact-form" id="contact">
         <div class="contact-description">
             <h2 class>Contact me</h2>
             <p>
@@ -326,6 +318,7 @@
             </div>
         </form>
     </section>
+    <script src="./menu.js"></script>
 </body>
 
 </html>

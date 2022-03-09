@@ -1,6 +1,5 @@
 * {
   margin: 2px;
-  padding: 2px;
   box-sizing: content-box;
 }
 
@@ -14,14 +13,6 @@
 .logo {
   flex-grow: 1;
   flex-shrink: 5;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
-}
-
-.logo:hover {
-  background-color: #2b3fee;
-  width: 30px;
-  height: 10px;
-  transform: rotate(10deg);
 }
 
 .content {
@@ -31,7 +22,52 @@
   background-image: url("./images/background.svg");
   background-size: 100vw;
   background-repeat: no-repeat;
+}
+
+.menu-item-style {
+  display: flex;
+  background: #6070ff;
+  opacity: 0.92;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 120vh;
+}
+
+.fixed-position {
+  position: fixed;
+}
+
+.cancel {
+  align-self: flex-end;
+}
+
+.list-items {
+  align-self: flex-start;
+}
+
+.lock-scroll {
   overflow: hidden;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  mix-blend-mode: normal;
 }
 
 h1 {
@@ -42,21 +78,10 @@ h1 {
   align-items: center;
   color: #172b4d;
   margin: 12px 0;
-  padding-top: 50px;
-  animation-duration: 5s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+  padding-top: 80px;
+  height: 150px;
+  left: 24px;
+  top: 150px;
 }
 
 p {
@@ -487,6 +512,15 @@ textarea::placeholder {
     height: auto;
   }
 
+  a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
   .cantainer {
     display: flex;
     flex-direction: row;
@@ -494,7 +528,7 @@ textarea::placeholder {
   }
 
   .menu {
-    display: none;
+    display: none !important;
   }
 
   .nav-menu {
