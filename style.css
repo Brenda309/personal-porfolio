@@ -27,7 +27,7 @@
 .menu-item-style {
   display: flex;
   background: #6070ff;
-  mix-blend-mode: multiply;
+  opacity: 0.92;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -41,12 +41,20 @@
   height: 120vh;
 }
 
+.fixed-position {
+  position: fixed;
+}
+
 .cancel {
   align-self: flex-end;
 }
 
 .list-items {
   align-self: flex-start;
+}
+
+.lock-scroll {
+  overflow: hidden;
 }
 
 a {
