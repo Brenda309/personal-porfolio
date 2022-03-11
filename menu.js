@@ -1,4 +1,3 @@
-
 const popupObject = [
   {
     name: 'Tonic',
@@ -43,7 +42,7 @@ const popupObject = [
     secodbutton: 'https://github.com/Brenda309/Personal-portfolio',
     image1: './images/portfolio4.png',
     cardClass: 'projects-container project-card',
-  }
+  },
 ];
 
 const menu = document.querySelector('.menu');
@@ -68,7 +67,6 @@ navMenu.addEventListener('click', () => {
   menu.style.display = 'flex';
 });
 
-
 // Creating Main section dynamically
 const workSectionContainer = document.querySelector('.cards-container');
 for (let i = 0; i < 4; i += 1) {
@@ -87,7 +85,7 @@ for (let i = 0; i < 4; i += 1) {
   card.appendChild(bgdiv);
   const h2 = document.createElement('h2');
   h2.className = 'p-title';
-  h2.textContent = popupObject[i].name
+  h2.textContent = popupObject[i].name;
   bgdiv.appendChild(h2);
   const bgdivUl = document.createElement('ul');
   bgdivUl.className = 'subwork';
@@ -113,7 +111,6 @@ for (let i = 0; i < 4; i += 1) {
   languagesUlLi2.textContent = popupObject[i].technologies[1];
   const languagesUlLi3 = document.createElement('li');
   languagesUlLi3.textContent = popupObject[i].technologies[2];
-
 
   const languagesUlLi4 = document.createElement('li');
   languagesUlLi4.textContent = popupObject[i].technologies[3];
@@ -161,20 +158,19 @@ for (let i = 0; i < 4; i += 1) {
       bgdiv.appendChild(btn);
       btn.style.width = '130px';
       languagesUl.style.marginBottom = '0';
-
-    })
+    });
     popupwindow.appendChild(h2);
     popupwindow.appendChild(bgdivUl);
-    popupwindow.appendChild(featuredImage)
+    popupwindow.appendChild(featuredImage);
     const pDivider = document.createElement('div');
-    pDivider.className = 'pDivider'
+    pDivider.className = 'pDivider';
     popupwindow.appendChild(pDivider);
-    pDivider.appendChild(bgdivP)
+    pDivider.appendChild(bgdivP);
     bgdivP.textContent = popupObject[i].popupDescription;
     const techDiv = document.createElement('div');
     techDiv.className = 'techDiv';
     pDivider.appendChild(techDiv);
-    techDiv.appendChild(languagesUl)
+    techDiv.appendChild(languagesUl);
     const popupbtn1 = document.createElement('a');
     const popupbtn2 = document.createElement('a');
     const popupbtnDiv = document.createElement('div');
@@ -201,4 +197,4 @@ for (let i = 0; i < 4; i += 1) {
     popupbtnDiv.className = 'popupBtnDiv';
     languagesUl.style.marginBottom = '20px';
   });
-};
+}
