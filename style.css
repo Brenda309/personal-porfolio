@@ -8,7 +8,6 @@
   flex-direction: row;
   padding: 25px;
   overflow: hidden;
-
 }
 
 .logo {
@@ -26,7 +25,6 @@
 }
 
 .menu-item-style {
-  position: fixed;
   display: flex;
   background: #6070ff;
   opacity: 0.92;
@@ -35,6 +33,7 @@
   font-weight: 600;
   font-size: 32px;
   color: #fff;
+  position: absolute;
   left: 0;
   right: 0;
   top: 0;
@@ -505,31 +504,73 @@ textarea::placeholder {
   text-align: center;
   margin: 10px auto;
 }
-.popup-window{
-  display: none;
 
-}
-.popup{
+/* Popup window */
+.popupWindowCont {
+  position: fixed;
   display: flex;
-flex-direction: column;
-align-items: center;
-padding: 16px;
-
-position: absolute;
-width: 343px;
-height: 713px;
-left: calc(50% - 343px/2);
-top: 60px;
-
-/* Neutrals/N0 */
-
-background: #FFFFFF;
-/* Neutrals/N40 */
-
-border: 1px solid #DFE1E6;
-box-sizing: border-box;
-border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background-color: rgb(0, 0, 0, 30%);
+  /* padding: 50px 15px; */
 }
+
+.popupWindow {
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  overflow: scroll;
+  border-radius: 15px;
+  padding: 15px 15px 25px 15px;
+}
+
+.popupClickme1,
+.popupClickme2 {
+  color: #6070ff;
+  border: 1px solid #6070ff;
+  display: inline;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pDivider {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-title {
+  margin: 0;
+}
+
+.popupBtnDiv {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.featuredImage {
+  width: 100%;
+  padding-top: 15px;
+}
+
+.subwork {
+  padding: 15px 0 5px 0;
+  list-style: inside;
+}
+
+.subwork li {
+  font-size: 20px;
+}
+
+.subwork li:first-child {
+  list-style: none;
+}
+
 /* Desktop-version */
 @media screen and (min-width: 992px) {
   body {
@@ -575,14 +616,6 @@ border-radius: 16px;
     padding: 20px;
     flex-grow: 1;
     flex-shrink: 5;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-  }
-
-  .logo:hover {
-    background-color: #2b3fee;
-    width: 30px;
-    height: 10px;
-    transform: rotate(10deg);
   }
 
   .content {
@@ -603,20 +636,6 @@ border-radius: 16px;
     width: 920px;
     height: 122px;
     flex: 1;
-    animation-duration: 5s;
-    animation-name: slidein;
-  }
-
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
   }
 
   p {
@@ -760,4 +779,24 @@ border-radius: 16px;
   .btn {
     align-self: center;
   }
+
+  /* Popup window for desktop */
+  .pDivider {
+    flex-direction: row;
+    padding-top: 15px;
+  }
+
+  .p-title {
+    margin: 0;
+  }
+
+  .hr {
+    display: none;
+  }
+
+  .languages {
+ 
+    flex-wrap: wrap;
+  }
+
 }
