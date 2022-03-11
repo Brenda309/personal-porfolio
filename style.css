@@ -172,10 +172,9 @@ ul.media {
 
 .subwork {
   display: flex;
-  list-style: none;
-  padding-right: 10px;
-  padding-left: 0;
   gap: 1em;
+  padding: 15px 0 5px 0;
+  list-style: inside;
 }
 
 .work1 {
@@ -195,6 +194,7 @@ ul.media {
 }
 
 .languages {
+  width: 250px;
   display: flex;
   list-style: none;
   padding-right: 10px;
@@ -505,6 +505,61 @@ textarea::placeholder {
   margin: 10px auto;
 }
 
+/* Popup window */
+.popupWindowCont {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background-color: rgb(0, 0, 0, 30%);
+
+  /* padding: 50px 15px; */
+}
+
+.popupWindow {
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  overflow: scroll;
+  border-radius: 15px;
+  padding: 15px 15px 25px 15px;
+}
+
+.popupClickme1,
+.popupClickme2 {
+  color: #6070ff;
+  border: 1px solid #6070ff;
+  display: inline;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pDivider {
+  display: flex;
+  flex-direction: column;
+}
+
+.popupBtnDiv {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.featuredImage {
+  width: 100%;
+  padding-top: 15px;
+}
+
+.subwork li:first-child {
+  list-style: none;
+  font-size: 20px;
+}
+
 /* Desktop-version */
 @media screen and (min-width: 992px) {
   body {
@@ -550,14 +605,6 @@ textarea::placeholder {
     padding: 20px;
     flex-grow: 1;
     flex-shrink: 5;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-  }
-
-  .logo:hover {
-    background-color: #2b3fee;
-    width: 30px;
-    height: 10px;
-    transform: rotate(10deg);
   }
 
   .content {
@@ -578,20 +625,6 @@ textarea::placeholder {
     width: 920px;
     height: 122px;
     flex: 1;
-    animation-duration: 5s;
-    animation-name: slidein;
-  }
-
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
   }
 
   p {
@@ -662,6 +695,7 @@ textarea::placeholder {
 
   .languages {
     padding-top: 40px;
+    flex-wrap: wrap;
   }
 
   .row-rev {
@@ -734,5 +768,15 @@ textarea::placeholder {
 
   .btn {
     align-self: center;
+  }
+
+  /* Popup window for desktop */
+  .pDivider {
+    flex-direction: row;
+    padding-top: 15px;
+  }
+
+  .hr {
+    display: none;
   }
 }

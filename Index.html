@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@4400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
     <link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 
@@ -17,18 +18,18 @@
         <a href="#" class="logo">
             <img src="./images/logo.svg" alt="Logo" />
         </a>
-       
-            <a href="#" class="menu">
-                <img src="./images/Union.svg"  alt="Menu" />
-            </a>
-            <nav class="navbar">
-                <ul class="nav-menu">
+
+        <a href="#" class="menu">
+            <img src="./images/Union.svg" alt="Menu" />
+        </a>
+        <nav class="navbar">
+            <ul class="nav-menu">
                 <li class="cancel"><img src="./images/Icon-Cancel.png" alt=""></li>
                 <li><a href="#portfolio" class="nav-list">Portfolio</a></li>
                 <li><a href="#about" class="nav-list">About</a></li>
                 <li><a href="#contact" class="nav-list">Contact</a></li>
-                </ul>
-            </nav>
+            </ul>
+        </nav>
     </header>
     <section class="content">
         <h1>
@@ -62,150 +63,13 @@
     </section>
 
 
-    <!--section2-->
-    <section class="projects-container" id="portfolio">
-        <div class="project-card">
-            <div class="image">
-                <img src="./images/tonic.svg" alt="Image1" />
-            </div>
-            <div class="background">
-                <h2 class="p-title">Tonic</h2>
-                <ul class="subwork">
-                    <li class="work1">CANOPY</li>
-                    <li>
-                        <img src="./images/Counter.svg" alt="bullet" />
-                    </li>
-                    <li>Back End Dev</li>
-                    <li>
-                        <img src="./images/Counter.svg" alt="bullet" />
-                    </li>
-                    <li>2015</li>
-                </ul>
-                <p class="about">
-                    A daily selection of privately personalized reads; no accounts or
-                    sign-ups required.
-                </p>
-                <ul class="languages">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-                <div><button class="clickme" type="button">See Projects</button></div>
-            </div>
-        </div>
+    <!--Cards container-->
+    <section class="cards-container">
+<h6>.</h6>
     </section>
 
 
-    <!--section3-->
-    <section class=" projects-container project-card row-rev">
-        <div class="image">
-            <img src="./images/portfolio2.png" alt="Image2" />
-        </div>
-
-        <div class="background">
-            <h2 class="p-title">
-                Multi-post <br />
-                stories
-            </h2>
-            <ul class="subwork">
-                <li class="work1">CANOPY</li>
-                <li>
-                    <img src="./images/Counter.svg" alt="" />
-                </li>
-                <li>Back End Dev</li>
-                <li>
-                    <img src="./images/Counter.svg" alt="" />
-                </li>
-                <li>2015</li>
-            </ul>
-
-
-            <p class="about">
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-            </p>
-
-            <ul class="languages">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
-            <div><button class="clickme" type="button">See Projects</button></div>
-        </div>
-    </section>
-
-
-    <!--section4-->
-    <section class="projects-container project-card">
-        <div class="image">
-            <img src="./images/portfolio3.png" alt="Image3" />
-        </div>
-        <div class="background">
-            <h2 class="p-title">Tonic</h2>
-            <ul class="subwork">
-                <li class="work1">CANOPY</li>
-                <li>
-                    <img src="./images/Counter.svg" alt="" />
-                </li>
-                <li>Back End Dev</li>
-                <li>
-                    <img src="./images/Counter.svg" alt="" />
-                </li>
-                <li>2015</li>
-            </ul>
-
-            <p class="about">
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-            </p>
-
-            <ul class="languages">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
-            <div><button class="clickme" type="button">See Projects</button></div>
-        </div>
-    </section>
-
-
-
-    <!--section5-->
-    <section class=" projects-container project-card row-rev">
-        <div class="image">
-            <img src="./images/portfolio4.png" alt="Image3" />
-        </div>
-
-        <div class="background">
-            <h2 class="p-title">
-                Multi-post <br />
-                stories
-            </h2>
-            <ul class="subwork">
-                <li class="work1">CANOPY</li>
-                <li>
-                    <img src="./images/Counter.svg" alt="" />
-                </li>
-                <li>Back End Dev</li>
-                <li>
-                    <img src="./images/Counter.svg" alt="" />
-                </li>
-                <li>2015</li>
-            </ul>
-
-            <p class="about">
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-            </p>
-
-            <ul class="languages">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
-            <div><button class="clickme" type="button">See Project</button></div>
-        </div>
-    </section>
+    <!-- About section -->
     <section class="my-intro" id="about">
         <div class="about-me">
             <h3 class="self">
@@ -296,23 +160,23 @@
                 with it
             </p>
         </div>
-        Add gtag.js to your site
-        <form class="form-field" action="https://formspree.io/f/mwkyojbz" method="post">
+        <form class="form-field" id="contactform" action="https://formspree.io/f/mwkyojbz" method="post">
             <div class="name name-emailv">
-                <input class="name-email" type="text" name="name" placeholder="Yeremias" maxlength="30" required />
+                <input class="name-email" type="text" name="name" id="name" placeholder="Yeremias" minlength="3" maxlength="30"
+                    pattern="[A-Za-z ]{1,30}" required />
             </div>
             <div class="email-field name-email">
-                <input class="name-email" type="email" name="email-address" placeholder="natajayanj14@gmail.com"
+                <input class="name-email" type="email" id="mail" name="email-address" placeholder="natajayanj14@gmail.com"
                     required />
             </div>
             <div class="message">
                 <textarea name="user_message" placeholder="Write your message here" maxlength="500" rows="10" cols="25"
                     required></textarea>
             </div>
+            <div class="invalidError" id="invalidError"></div>
             <div class="btn">
                 <button type="submit">Get It Touch</button>
             </div>
-
             <div class="line">
                 <img src="./images/shape.png" alt="line" />
             </div>
