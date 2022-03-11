@@ -144,7 +144,7 @@ for (let i = 0; i < 4; i += 1) {
     popupWindowMainCont.appendChild(popupwindow);
     popupwindow.className = 'popupWindow';
     const closeIcon = document.createElement('img');
-    closeIcon.src = 'images/xIcon.svg';
+    closeIcon.src = 'images/xIcon.png';
     closeIcon.style.float = 'right';
     popupwindow.appendChild(closeIcon);
     closeIcon.addEventListener('click', () => {
@@ -185,9 +185,9 @@ for (let i = 0; i < 4; i += 1) {
     popupbtn2.textContent = 'See source';
     const icon1 = document.createElement('img');
     const icon2 = document.createElement('img');
-    icon2.src = 'images/githubinbutton.svg';
+    icon2.src = 'images/bluegithub.png';
     popupbtn2.appendChild(icon2);
-    icon1.src = 'images/roundShape.png';
+    icon1.src = 'images/livecode.png';
     icon1.style.marginBottom = '-3px';
     icon2.style.margin = '0 5px -3px 6px';
     icon1.style.margin = '0 5px -3px 6px';
