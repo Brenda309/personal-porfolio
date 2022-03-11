@@ -195,6 +195,7 @@ ul.media {
 }
 
 .languages {
+  width: 250px;
   display: flex;
   list-style: none;
   padding-right: 10px;
