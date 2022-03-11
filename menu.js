@@ -215,11 +215,11 @@ for (let i = 0; i < 4; i += 1) {
 }
 
 // form validation//
-const form = document.querySelector('#contact');
+const form = document.querySelector('#contactform');
 const email = document.querySelector('#mail');
 const invalidError = document.querySelector('#invalidError');
 
-form.addEventListener('btn', (e) => {
+form.addEventListener('submit', (e) => {
   const emailText = email.value;
   if (emailText !== emailText.toLowerCase()) {
     e.preventDefault();

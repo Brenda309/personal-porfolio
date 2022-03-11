@@ -151,7 +151,7 @@
 
 
     <!-- contact form section -->
-    <section class="contact-form">
+    <section class="contact-form" id="contact">
         <div class="contact-description">
             <h2 class>Contact me</h2>
             <p>
@@ -160,13 +160,13 @@
                 with it
             </p>
         </div>
-        <form class="form-field" id="contact" action="https://formspree.io/f/mwkyojbz" method="post">
+        <form class="form-field" id="contactform" action="https://formspree.io/f/mwkyojbz" method="post">
             <div class="name name-emailv">
-                <input class="name-email" type="text" name="name" placeholder="Yeremias" minlength="3" maxlength="30"
+                <input class="name-email" type="text" name="name" id="name" placeholder="Yeremias" minlength="3" maxlength="30"
                     pattern="[A-Za-z ]{1,30}" required />
             </div>
             <div class="email-field name-email">
-                <input class="name-email" type="email" name="email-address" placeholder="natajayanj14@gmail.com"
+                <input class="name-email" type="email" id="mail" name="email-address" placeholder="natajayanj14@gmail.com"
                     required />
             </div>
             <div class="message">
@@ -176,11 +176,12 @@
             <div class="btn">
                 <button type="submit" id="mail">Get It Touch</button>
             </div>
-            <div class="invalidError" id="invalidError"></div>
+            
 
             <div class="line">
                 <img src="./images/shape.png" alt="line" />
             </div>
+            <div class="invalidError" id="invalidError"></div>
         </form>
     </section>
     <script src="./menu.js"></script>
