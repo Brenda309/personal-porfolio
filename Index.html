@@ -65,7 +65,7 @@
 
     <!--Cards container-->
     <section class="cards-container">
-        <h6>.</h6>
+       <h6>.</h6
     </section>
 
 
@@ -160,22 +160,23 @@
                 with it
             </p>
         </div>
-        <form class="form-field" action="https://formspree.io/f/mwkyojbz" method="post">
+        <form class="form-field" id="contactform" action="https://formspree.io/f/mwkyojbz" method="post">
             <div class="name name-emailv">
-                <input class="name-email" type="text" name="name" placeholder="Yeremias" maxlength="30" required />
+                <input class="name-email" type="text" name="name" id="name" placeholder="Yeremias" minlength="3" maxlength="30"
+                    pattern="[A-Za-z ]{1,30}" required />
             </div>
             <div class="email-field name-email">
-                <input class="name-email" type="email" name="email-address" placeholder="natajayanj14@gmail.com"
+                <input class="name-email" type="email" id="mail" name="email-address" placeholder="natajayanj14@gmail.com"
                     required />
             </div>
             <div class="message">
                 <textarea name="user_message" placeholder="Write your message here" maxlength="500" rows="10" cols="25"
                     required></textarea>
             </div>
+            <div class="invalidError" id="invalidError"></div>
             <div class="btn">
                 <button type="submit">Get It Touch</button>
             </div>
-
             <div class="line">
                 <img src="./images/shape.png" alt="line" />
             </div>
