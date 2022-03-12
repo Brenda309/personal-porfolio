@@ -173,7 +173,7 @@ ul.media {
 .subwork {
   display: flex;
   gap: 1em;
-  padding: 15px 0 5px 0;
+  padding: 15px 0 20px;
   list-style: inside;
 }
 
@@ -188,13 +188,12 @@ ul.media {
 
 .subwork li {
   color: #7a869a;
-  font-size: 13px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 .languages {
-  width: 250px;
   display: flex;
   list-style: none;
   padding-right: 10px;
@@ -273,7 +272,6 @@ ul.media {
 
 .down {
   transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
 }
 
 .lang {
@@ -331,7 +329,6 @@ ul.media {
 
 .right {
   transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
   margin: 20px;
 }
 
@@ -340,7 +337,7 @@ ul.media {
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
-  color: rgb(32, 32, 32);
+  color: rgb(32 32 32);
 }
 
 .contact-form {
@@ -427,7 +424,7 @@ ul.media {
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
-  color: rgb(32, 32, 32);
+  color: rgb(32 32 32);
   padding: 15px 16px 15px 23px;
   background: none;
 }
@@ -514,7 +511,7 @@ textarea::placeholder {
   width: 100vw;
   height: 100vh;
   top: 0;
-  background-color: rgb(0, 0, 0, 30%);
+  background-color: rgb(0 0 0 / 30%);
 
   /* padding: 50px 15px; */
 }
@@ -525,7 +522,7 @@ textarea::placeholder {
   background-color: #fff;
   overflow: scroll;
   border-radius: 15px;
-  padding: 15px 15px 25px 15px;
+  padding: 15px 15px 25px;
 }
 
 .popupClickme1,
@@ -555,9 +552,62 @@ textarea::placeholder {
   padding-top: 15px;
 }
 
+.card-disabled {
+  display: none;
+}
+
 .subwork li:first-child {
   list-style: none;
-  font-size: 20px;
+}
+
+.seeLive,
+.seeSrc {
+  color: #6070ff;
+  border: 1px solid #6070ff;
+  display: flex;
+  gap: 5px;
+  font-size: 15px;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+.seeLive,
+.seeSrc:hover {
+  cursor: pointer;
+}
+
+.hidden-lists {
+  display: none;
+}
+
+.popupCloseicon {
+  float: right;
+  padding: 5px 15px 0 0;
+}
+
+.popupCloseicon:hover {
+  cursor: pointer;
+}
+
+#popuphr {
+  color: #dedfe3;
+}
+
+#lang-btn-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+#btn-Cont {
+  align-self: center;
+  display: flex;
+  gap: 15px;
+}
+
+#infoCont {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Desktop-version */
@@ -605,6 +655,14 @@ textarea::placeholder {
     padding: 20px;
     flex-grow: 1;
     flex-shrink: 5;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
+
+  .logo:hover {
+    background-color: #2b3fee;
+    width: 30px;
+    height: 10px;
+    transform: rotate(10deg);
   }
 
   .content {
@@ -625,7 +683,21 @@ textarea::placeholder {
     width: 920px;
     height: 122px;
     flex: 1;
+    animation-duration: 5s;
+    animation-name: slidein;
   }
+
+  /* @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  } */
 
   p {
     font-family: "Poppins", sans-serif;
@@ -633,7 +705,7 @@ textarea::placeholder {
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
-    width: 920px;
+    width: auto;
     height: 122px;
     flex: 1;
   }
@@ -691,11 +763,6 @@ textarea::placeholder {
     font-size: 18px;
     line-height: 24px;
     color: #344563;
-  }
-
-  .languages {
-    padding-top: 40px;
-    flex-wrap: wrap;
   }
 
   .row-rev {
@@ -776,7 +843,29 @@ textarea::placeholder {
     padding-top: 15px;
   }
 
-  .hr {
+  #popuphr {
     display: none;
+  }
+
+  .languages {
+    flex-wrap: wrap;
+    padding-top: 40px;
+  }
+
+  .card-diabled {
+    display: inline;
+  }
+
+  .hidden-lists {
+    display: inline;
+  }
+
+  #infoCont {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+  }
+
+  .popupWindowCont {
+    backdrop-filter: blur(4px);
   }
 }
